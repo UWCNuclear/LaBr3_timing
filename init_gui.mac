@@ -1,0 +1,16 @@
+# Open visualisation
+/vis/open OGLS 600x600-0+0
+/vis/viewer/set/style surface
+/vis/drawVolume
+
+# Set viewpoint
+/vis/viewer/set/viewpointThetaPhi 135 45
+
+# Show trajectories
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+
+# Accumulate them
+/vis/scene/endOfEventAction accumulate

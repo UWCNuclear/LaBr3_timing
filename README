@@ -1,0 +1,5 @@
+This package contains code for Geant4 simulations of lanthanum bromide
+detectors. At the moment, it doesn't simulate the creation of optical
+photons. The idea is to simulate different gamma-ray cascades and look
+at the influence of the Compton background from one peak on the timing
+of another.
